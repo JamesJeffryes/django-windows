@@ -1,0 +1,76 @@
+Floor	Room	Common Names	Code
+1st	NE (Cave)	Cave	E20
+1st	NE (Cave)	Cave	E19
+1st	NE Hall		E18
+1st	Kitchen	Kitchen	E17
+1st	Kitchen	Kitchen	E16
+1st	E		E15
+1st	E		E14
+1st	SE		E13
+1st	SE		E12
+1st	SE (Closet)		E11
+1st	Formal Lounge	Formal Lounge	E10
+2nd	NE		E9
+2nd	E (PC side)		E8
+2nd	E (PC main)	PC Main	E6
+2nd	E (PC main)	PC Main	E7
+2nd	Bathroom		E5
+2nd	Kitchen		E3
+2nd	Kitchen		E4
+2nd	Bathroom (Blocked)		E2
+2nd	SE		E1
+Basement			E27
+Basement			E26
+Basement			E25
+Basement			E24
+Basement			E23
+Basement			E22
+Basement			E21
+Basement			E28
+1st	NW Single		N6
+1st	N Single (Cave)	Nursury	N5
+1st	NE (Cave)	Cave	N3
+1st	NE (Cave)	Cave	N4
+3rd	N Staircase		N1
+3rd	N Staircase		N2
+1st	Pool Room	Pool Room	S7
+1st	Formal Lounge	Formal Lounge	S8
+2nd	S		S3
+2nd	S		S4
+2nd	SW	Dusty's	S1
+2nd	SW	Dusty's	S2
+2nd	SE	Mantle	S5
+2nd	SE	Mantle	S6
+Basement			S10
+Basement	Taylor's	Taylor's	S9
+1st	Pool Room	Pool Room	W21
+1st	S Staircase	S Staircase	W20
+1st	S Staircase	S Staircase	W19
+1st	WSW		W18
+1st	W		W17
+1st	Back Lounge	Back Lounge	W16
+1st	Back Lounge	Back Lounge	W15
+1st	Back Lounge	Back Lounge	W14
+1st	Back Lounge	Back Lounge	W13
+1st	NW Hall		W12
+1st	SW Single		W11
+1st	NW Single		W10
+2nd	SW		W9
+2nd	S Staircase		W8
+2nd	WSW		W7
+2nd	WSW		W6
+2nd	W		W5
+2nd	W		W4
+2nd	WNW		W3
+2nd	WNW		W2
+2nd	NW		W1
+Basement			W22
+Basement			W23
+Basement			W24
+Basement			W25
+Basement			W26
+Basement			W27
+Basement			W28
+Basement			W29
+Basement			W30
+Basement			W31

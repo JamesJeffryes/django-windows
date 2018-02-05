@@ -1,0 +1,22 @@
+{% extends "windows/base.html" %}
+{% load static %}
+{% block body_block %}
+<br>
+<h1>{{ object.first_name }} {{ object.last_name }}</h1>
+<table class="table table-striped">
+    <tr><td>Initiation Class</td>
+        <td> {{ object.init_class }}</td></tr>
+    <tr><td>Email</td>
+        <td> {{ object.email_address }}</td></tr>
+    <tr><td>Donation Amount</td>
+        <td> ${{ object.donation_amount }}</td></tr>
+    <tr><td>Sponsored Window</td>
+        <td> {{ window.code }}-{{ window.description }}</td></tr>
+    <tr><td>Plaque Text</td>
+        <td> {{window.plaque}}</td></tr>
+</table>
+<form action="" method="post">{% csrf_token %}
+    <a class="btn btn-danger" href="javascript:history.back()">Go Back</a>
+    <input class="btn btn-primary" type="submit" value="Looks Good!" />
+</form>
+{% endblock %}

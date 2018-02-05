@@ -1,0 +1,19 @@
+{% extends "windows/base.html" %}
+{% load static %}
+{% block body_block %}
+
+<br>
+<h2>Window List</h2>
+<table class="table table-striped">
+    <th>Window</th><th>Sponsor</th><th>Dedication</th>
+{% for window in object_list %}
+    <tr>
+        <td>{{ window.code }}: {{ window.description }}</td>
+        <td>{{ window.sponsor }}</td>
+        <td>{{ window.plaque }}</td>
+    </tr>
+{% empty %}
+    <p>No windows yet.</p>
+{% endfor %}
+</table>
+{% endblock %}

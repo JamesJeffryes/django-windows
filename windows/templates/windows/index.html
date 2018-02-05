@@ -1,0 +1,20 @@
+{% extends "windows/base.html" %}
+{% load static %}
+{% block body_block %}
+{% load crispy_forms_tags %}
+
+<div class="container">
+    <div class="md-3"></div>
+    <div class="md-6">
+        <img class="mx-auto my-2" src="{% static 'windows/front.jpg' %}" alt="front of house" style="display: block; margin-left: auto; margin-right: auto;">
+        <h4>Thank you for donating to the Windows replacement project! Please enter you donor ID to continue</h4>
+        <form action="" method="post">{% csrf_token %}
+            {{ form| crispy }}
+            <div class="input-group-append">
+                <input class="btn btn-primary" type="submit" value="Let's Go!" />
+            </div>
+        </form>
+    </div>
+    <div class="md-3"></div>
+</div>
+{% endblock %}
